@@ -8,14 +8,13 @@ interface IRow {
   const Rows = (props:IRow) => {
 
 return(
-    <div className="mb-3 grid-cols-5 grid" aria-label={`Row ${props.rowNumber}`}> 
+    <div className="mb-3 grid-cols-5 grid gap-1" aria-label={`Row ${props.rowNumber}`}> 
 
-      <input type="text" maxLength={1} className=" border-2 w-20 h-20 border-black"/> 
-      <input type="text" maxLength={1} className=" border-2 w-20 h-20 border-black"/> 
-      <input type="text" maxLength={1} className=" border-2 w-20 h-20 border-black"/> 
-      <input type="text" maxLength={1} className=" border-2 w-20 h-20 border-black"/> 
-      <input type="text" maxLength={1} className=" border-2 w-20 h-20 border-black"/> 
-
+      <div className="border-2 w-20 h-20 border-gray-500 bg-black"> </div> 
+      <div className="border-2 w-20 h-20 border-gray-500 bg-black"> </div> 
+      <div className="border-2 w-20 h-20 border-gray-500 bg-black"> </div> 
+      <div className="border-2 w-20 h-20 border-gray-500 bg-black"> </div> 
+      <div className="border-2 w-20 h-20 border-gray-500 bg-black"> </div> 
       </div>
 );
 
